@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Nav from "./components/Nav";
+import Main from "./components/pages/Main";
+import AboutMe from "./components/pages/AboutMe";
+
 
 function App() {
-  return (
-    <div className="App">
-      <h1>my react app </h1>
-    </div>
+  return(
+  <div>
+      <Nav />
+      <Main />
+      <AboutMe />
+  </div>
   );
-}
+};
 
 export default App;
