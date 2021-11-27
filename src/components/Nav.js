@@ -3,7 +3,12 @@ import React from "react";
 export default function Nav(props){
 return( 
 <div>
-    <div>nav</div>
+    <div>
+        
+    </div>
+    <div>
+        
+    </div>
 </div>
 );
 }
