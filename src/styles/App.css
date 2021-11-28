@@ -11,16 +11,20 @@
     align-items: center;
 }
 .nav{
-    position: fixed;
-    width: 99%;
     display: flex;
     justify-content: center;
 
 }
 .nav_items{
+    width: 95%;
     display: flex;
-    width: 94%;
     justify-content: space-between;
+    align-items: center;
+    color: orange;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow:inset 0px -6px 5px 0px rgba(0, 0, 0, .5) ,20px 20px 50px rgba(0, 0, 0, .5) ;
+    height: 4rem;
+    position:fixed;
 }
 .swipe_page{
     position: fixed;
