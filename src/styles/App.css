@@ -40,3 +40,38 @@
 .swipe{
     left: 0%;
 }
+
+.info{
+    padding: 0 70px 0 0;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    text-shadow: 0px 4px 1px rgba(0,0,0,.5);
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1px;
+    width: 90px;
+    height: 70px;
+    cursor:pointer;
+    user-select: none;
+}
+
+.one{
+    border-right: rgb(14, 13, 13) solid;
+    border-left: rgb(31, 29, 29) solid;
+}
+
+.two{
+    border-right: rgb(14, 13, 13) solid;
+    border-left: rgb(31, 29, 29) solid;
+}
+
+.three{
+    border-right: rgb(31, 29, 13) solid;
+    border-left: rgb(31, 29, 29) solid;
+}
