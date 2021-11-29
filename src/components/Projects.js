@@ -4,7 +4,18 @@ import React from "react";
 export default function Projects(props){
     return (
     <div className = 'slides'>
-        <div>Projects</div>
+        <div className = 'project_container'>
+            <div className='row'>
+                <div className='column'></div>
+                <div className='column'></div>
+                <div className='column'></div>
+            </div>
+            <div className='row'>
+                <div className='column'></div>
+                <div className='column'></div>
+                <div className='column'></div>
+            </div>
+        </div>
     </div>
     );
 }
