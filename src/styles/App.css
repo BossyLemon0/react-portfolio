@@ -3,6 +3,10 @@
     width: 0;
 }
 
+body{
+    background-color: black;
+}
+
 .slides{
     width:100%;
     height: 100vh;
@@ -80,4 +84,36 @@
 .four{
     border-right: rgb(14, 13, 13) solid;
     border-left: rgb(31, 29, 29) solid;
+}
+
+.first_slide{
+    letter-spacing: 13px;
+    font-family: arial;
+    font-size: 100px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004) ;
+    line-height: .7em;
+}
+
+.isOff{
+    animation: unGlowMain 2s linear forwards;
+}
+
+.isOn{
+    animation: glowMain 2s linear forwards;
+}
+
+@keyframes glowMain {
+    0%{
+        color:rgba(118, 105, 105, 0.515);
+        text-shadow: none;
+    }
+    100%{
+        color:rgb(255, 255, 255);
+        text-shadow: 0 0 10px rgb(248, 100, 2),
+        0 0 20px rgb(248, 100, 2),
+        0 0 40px rgb(248, 100, 2),
+         0 0 80px rgb(248, 100, 2),
+          0 0 100px rgb(248, 100, 2)
+         ;
+    }
 }
