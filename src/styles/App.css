@@ -134,6 +134,10 @@ body{
     border: rgba(118, 105, 105, 0.515) solid 7px ;
     justify-content: center;
 }
+.skillsHeader{
+    font-size: 54px;
+}
 .texty{
+    text-align: center;
     color: rgba(118, 105, 105, 0.515);
 }
