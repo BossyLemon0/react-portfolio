@@ -117,3 +117,23 @@ body{
          ;
     }
 }
+
+
+.skills{
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.second{
+    display:flex;
+    padding-top: 35px;
+    width: 450px;
+    height: 450px;
+    border: rgba(118, 105, 105, 0.515) solid 7px ;
+    justify-content: center;
+}
+.texty{
+    color: rgba(118, 105, 105, 0.515);
+}

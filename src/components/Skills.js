@@ -4,19 +4,19 @@ import React from "react";
 export default function Skills(props){
     return (
     <div className = 'slides'>
-        <div class="second">
-            <div class="texty">
-                <header class="skillsHeader"> My skills</header>
-                    <p class="skillP">HTML</p>
-                    <p class="skillP">CSS</p>
-                    <p class="skillP">Javascript</p>
-                    <p class="skillP">SQL</p>
-                    <p class="skillP">GraphQl</p>
-                    <p class="skillP">React</p>
-                    <p class="skillP">Express</p>
-                    <p class="skillP">MongoDb</p>
-                    <p class="skillP">Express Handlebars</p>
-                    <p class="skillP">Luxon</p>
+        <div className="second">
+            <div className="texty">
+                <header className="skillsHeader"> My skills</header>
+                    <p className="skillP">HTML</p>
+                    <p className="skillP">CSS</p>
+                    <p className="skillP">Javascript</p>
+                    <p className="skillP">SQL</p>
+                    <p className="skillP">GraphQl</p>
+                    <p className="skillP">React</p>
+                    <p className="skillP">Express</p>
+                    <p className="skillP">MongoDb</p>
+                    <p className="skillP">Express Handlebars</p>
+                    <p className="skillP">Luxon</p>
             </div>
         </div>
     </div>
