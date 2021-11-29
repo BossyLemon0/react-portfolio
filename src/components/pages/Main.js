@@ -12,7 +12,7 @@ return(
     <Home />
     <Skills />
     <Projects />
-    <Contact />
+    <Contact  />
     <Footer />
 </div>
 );

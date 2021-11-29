@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Skills(props){
     return (
-    <div className = 'slides'>
+    <div className = 'slides' name='skills'>
         <div className="second">
             <div className="texty">
                 <header className="skillsHeader"> My skills</header>
