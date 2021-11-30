@@ -3,7 +3,7 @@ import '../styles/Form.css';
 
 export default function Contact(props){
     return (
-    <div className = 'slides'>
+    <div className = 'slides contact'>
         <div className= 'contact_header'>Contact Me</div>
         <form action="mailto:omardramirez2002@gmail.com">
             <div>
