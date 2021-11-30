@@ -49,7 +49,7 @@ export default function Buttons(props){
                     duration: 1400,
                     delay: 100,
                     smooth: true,
-                    offset: -800
+                    offset: -30
                   } )
                 break;
             case 'four':
