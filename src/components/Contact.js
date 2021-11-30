@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact(props){
     return (
     <div className = 'slides'>
-        <div>Contact Me</div>
+        <div className= 'contact_header'>Contact Me</div>
         <form action="mailto:omardramirez2002@gmail.com">
             <div>
                 <label for=""></label>
