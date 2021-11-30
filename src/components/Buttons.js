@@ -1,11 +1,11 @@
 import React from "react";
-import Home from "./Home";
-import Skills from "./Skills";
+import AboutMe from "./pages/AboutMe";
+console.log(AboutMe);
 
 var Scroll = require('react-scroll');
-var elementHome = Scroll.Home;
-var elementSkills = Scroll.Skills;
-var scroller = Scroll.scroller;
+var scroller = Scroll.scroller
+
+// the npm package imports it through the require method
 
 export default function Buttons(props){
 
@@ -65,6 +65,10 @@ export default function Buttons(props){
         }
        
     }
+    
+    function toAbout(){
+        //toDo: this funciton is suppose to toggle the 
+    }
 
     return (
     <div className = 'info'>
@@ -72,7 +76,7 @@ export default function Buttons(props){
         <div onClick = { active, elScroll } className = {`btn two`} >Skills</div>
         <div onClick = { active, elScroll } className = {`btn three `} >Projects</div>
         <div onClick = { active, elScroll } className = {`btn four `} >Contact Me</div>
-        <div onClick = { active } className = {`btn  `} >About Me</div>
+        <div onClick = { active, toAbout } className = {`btn `} >About Me</div>
         {/* <div className ={`Btn five ${props.active ? "active": ""}`} >Home</div> */}
     </div>
     );
