@@ -76,7 +76,7 @@ body{
     user-select: none;
 }
 
-.one{
+/* .one{
     border-right: rgb(14, 13, 13) solid;
     border-left: rgb(31, 29, 29) solid;
 }
@@ -93,7 +93,7 @@ body{
 .four{
     border-right: rgb(14, 13, 13) solid;
     border-left: rgb(31, 29, 29) solid;
-}
+} */
 
 
 /* first slide */
@@ -114,29 +114,11 @@ body{
 
 }
 
-.isOff{
-    animation: unGlowMain 2s linear forwards;
-}
 
 .isOn{
     animation: glowMain 2s linear forwards;
 }
 
-/* @keyframes glowMain {
-    0%{
-        color:rgba(118, 105, 105, 0.515);
-        text-shadow: none;
-    }
-    100%{
-        color:rgb(255, 255, 255);
-        text-shadow: 0 0 10px rgb(248, 100, 2),
-        0 0 20px rgb(248, 100, 2),
-        0 0 40px rgb(248, 100, 2),
-         0 0 80px rgb(248, 100, 2),
-          0 0 100px rgb(248, 100, 2)
-         ;
-    }
-} */
 
 @keyframes glowMain {
     0%{
