@@ -3,6 +3,14 @@
     width: 0;
 }
 
+@font-face { 
+    font-family: "Roboto-Regular";  
+    font-weight: 400; 
+    font-style: normal; 
+    src: url("chrome-extension://ifajfiofeifbbhbionejdliodenmecna/Fonts/Roboto-Regular.ttf") format("ttf"); 
+    font-display: swap
+   }
+
 body{
     background-color: black;
 }
@@ -54,7 +62,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: grey;
     text-shadow: 0px 4px 1px rgba(0,0,0,.5);
-    
+    font-display: swap;
 }
 
 .btn{
@@ -93,8 +101,17 @@ body{
     letter-spacing: 13px;
     font-family: arial;
     font-size: 100px;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004) ;
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0004) ; */
+    opacity: 0;
     line-height: .7em;
+    text-shadow: 0 0 10px rgb(248, 100, 2),
+    0 0 20px rgb(248, 100, 2),
+    0 0 40px rgb(248, 100, 2),
+     0 0 80px rgb(248, 100, 2),
+      0 0 100px rgb(248, 100, 2);
+    color:rgb(255, 255, 255);
+
+
 }
 
 .isOff{
@@ -105,7 +122,7 @@ body{
     animation: glowMain 2s linear forwards;
 }
 
-@keyframes glowMain {
+/* @keyframes glowMain {
     0%{
         color:rgba(118, 105, 105, 0.515);
         text-shadow: none;
@@ -118,6 +135,15 @@ body{
          0 0 80px rgb(248, 100, 2),
           0 0 100px rgb(248, 100, 2)
          ;
+    }
+} */
+
+@keyframes glowMain {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
 
@@ -188,3 +214,4 @@ body{
     flex-basis: 100%;
     flex: 1;
   }
+
